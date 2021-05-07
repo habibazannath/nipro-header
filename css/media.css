@@ -1,0 +1,84 @@
+/***------------**Extra small device(portrait phones, less than 576px)**---****/
+
+@media (max-width: 575.98px){
+	/*header start*/
+	.logo {
+	margin-top: 20px;
+	}
+	.l-top {
+	display: none;
+	}
+	.menu ul li a {
+	padding: 5px 0px !important;
+	}
+	.d-search {
+    min-width: 260px;
+    padding: 12px 25px
+    
+	}
+	.d-search[data-bs-popper] {
+	    left: 0;
+	}
+	/*header end*/
+	
+}
+
+/***---------------------------**Small device(landscape phones, 576px and up)****------------**/
+
+@media (min-width: 576px) and (max-width: 767.98px){
+/*header start*/
+
+	.logo {
+	    margin-top: 20px;
+	}
+	.l-top {
+	    display: none;
+	}
+	.menu ul li a {
+	padding: 5px 0px !important;
+	}
+
+	.d-search[data-bs-popper] {
+	    left: 0;
+	}
+	/*header end*/
+	
+
+}
+
+/***----------------------------**Medium device(Tablets, 768px and up)****------------**/
+
+@media (min-width: 768px) and (max-width: 991.98px){
+/*header start*/
+.menu ul li a {
+padding: 5px 0px !important;
+}
+.d-search[data-bs-popper] {
+    left: 0;
+}
+/*header end*/
+
+}
+
+/***----------------------------**Large device(Large Leptop and dekstop, 992px and up)****------------**/
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+
+
+}
+
+/***----------------------------**Extra Large device(Extra large Leptop and dekstop, 1200px and up)****------------**/
+
+@media (min-width: 1200px) and (max-width: 1399.98px){
+
+	
+
+}
+
+/***--------------------**Extra extra Large device(Extra extra large Leptop and dekstop, 1400px and up)****--------**/
+
+@media (min-width: 1400px){
+
+	
+
+}

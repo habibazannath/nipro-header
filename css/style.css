@@ -1,0 +1,79 @@
+/****************fonts-start*****************/
+@font-face{
+	src:url(../font/Lato/Lato-Regular.ttf);
+	font-family: Lato-Regular;
+}
+@font-face{
+	src:url(../font/Lato/Lato-Bold.ttf);
+	font-family: Lato-Bold;
+}
+@font-face{
+	src:url(../font/Roboto/Roboto-Regular.ttf);
+	font-family: Roboto-Regular;
+}
+@font-face{
+	src:url(../font/Roboto/Roboto-Medium.ttf);
+	font-family: Roboto-Medium;
+}
+/******************fonts-end***********************/
+/******************common start***********************/
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: 400px;
+	color: #8E8E8E;
+}
+/******************common-end***********************/
+/***************header start***************/
+header{
+	
+}
+.logo{
+	font-family: 'Lato', sans-serif;
+}
+.l-top{
+
+}
+.l-text{
+	font-size: 30px;
+	font-weight: 500px;
+	color: #333333;
+}
+.menu{
+	margin-top: 30px;
+}
+.menu ul{}
+.menu ul li{}
+.menu ul li a{
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	font-weight: 700px;
+	color: #8E8E8E !important;
+	padding: 0 15px !important;
+}
+.menu ul li a:hover{
+	color: #333333 !important;
+	
+}
+.btn-search{
+	color: #8E8E8E;
+
+}
+.btn-search:hover{
+	color: #8E8E8E;
+ 
+}
+.btn-search:focus{
+	box-shadow: none;
+
+}
+.d-search{
+	min-width: 350px;
+	top: 60px;
+	padding: 10px 10px;
+}
+.d-search[data-bs-popper] {
+    left: -295px;
+    
+}
+/***************header end***************/
